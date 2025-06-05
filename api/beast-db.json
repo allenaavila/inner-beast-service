@@ -1,0 +1,359 @@
+{
+  "beasts": [
+    {
+      "beastId": "lion",
+      "name": "Lion",
+      "type": "Real",
+      "coreTraits": {
+        "socialInteraction": "Assertive Leadership",
+        "problemSolvingApproach": "Direct & Courageous",
+        "responseToAdversity": "Protective & Strong",
+        "primaryMotivation": "Courage & Command",
+        "communicationStyle": "Direct & Authoritative"
+      },
+      "elaboration": "Possesses a dignified and commanding presence, inspiring respect and naturally taking charge.",
+      "wordsOfWisdom": "Your roar commands attention, but remember even the king of the jungle needs to listen to the whispers of the savanna to truly lead.",
+      "imageUrl": "https://example.com/images/beasts/lion.png"
+    },
+    {
+      "beastId": "dolphin",
+      "name": "Dolphin",
+      "type": "Real",
+      "coreTraits": {
+        "socialInteraction": "Highly Social & Playful",
+        "problemSolvingApproach": "Intelligent & Collaborative",
+        "responseToAdversity": "Adaptable & Agile",
+        "primaryMotivation": "Joy & Connection",
+        "communicationStyle": "Expressive & Communicative"
+      },
+      "elaboration": "Known for being highly communicative, intelligent, and adaptable in social situations, approaching life with a joyful and inquisitive spirit.",
+      "wordsOfWisdom": "Your joyful leaps make waves, but ensure your playful currents don't inadvertently capsize smaller boats in the shared ocean of collaboration.",
+      "imageUrl": "https://example.com/images/beasts/dolphin.png"
+    },
+    {
+      "beastId": "owl",
+      "name": "Owl",
+      "type": "Real",
+      "coreTraits": {
+        "socialInteraction": "Observational & Introverted",
+        "problemSolvingApproach": "Strategic & Methodical",
+        "responseToAdversity": "Cautious & Perceptive",
+        "primaryMotivation": "Wisdom & Understanding",
+        "communicationStyle": "Considered & Observational"
+      },
+      "elaboration": "Often seen as patient and methodical, with a keen eye for detail, preferring to watch, listen, and gather information before acting.",
+      "wordsOfWisdom": "While your silent observation gathers all the secrets of the night, remember that sometimes hooting your insights is necessary for the forest to thrive.",
+      "imageUrl": "https://example.com/images/beasts/owl.png"
+    },
+    {
+      "beastId": "wolf",
+      "name": "Wolf",
+      "type": "Real",
+      "coreTraits": {
+        "socialInteraction": "Loyal to a Small Group",
+        "problemSolvingApproach": "Collaborative & Instinctive",
+        "responseToAdversity": "Resilient & United",
+        "primaryMotivation": "Pack & Loyalty",
+        "communicationStyle": "Coordinated & Instinctual"
+      },
+      "elaboration": "Resilient and resourceful, especially when working with trusted allies, forming strong bonds and fiercely devoted to their 'pack.'",
+      "wordsOfWisdom": "Your loyalty to the pack is your strength, but be wary that the lone wolf's howl for independence isn't misinterpreted as a challenge to the hunt.",
+      "imageUrl": "https://example.com/images/beasts/wolf.png"
+    },
+    {
+      "beastId": "fox",
+      "name": "Fox",
+      "type": "Real",
+      "coreTraits": {
+        "socialInteraction": "Independent & Wary",
+        "problemSolvingApproach": "Resourceful & Clever",
+        "responseToAdversity": "Adaptable & Quick-thinking",
+        "primaryMotivation": "Ingenuity & Survival",
+        "communicationStyle": "Cunning & Subtle"
+      },
+      "elaboration": "Quick-witted and agile, always seeming to be one step ahead, excelling at finding ingenious solutions to problems.",
+      "wordsOfWisdom": "Your cunning can navigate any maze, but ensure your clever shortcuts don't leave others feeling like they've been outfoxed rather than included.",
+      "imageUrl": "https://example.com/images/beasts/fox.png"
+    },
+    {
+      "beastId": "bear",
+      "name": "Bear",
+      "type": "Real",
+      "coreTraits": {
+        "socialInteraction": "Values Solitude",
+        "problemSolvingApproach": "Grounded & Powerful",
+        "responseToAdversity": "Protective & Strong",
+        "primaryMotivation": "Strength & Self-sufficiency",
+        "communicationStyle": "Quiet & Deliberate"
+      },
+      "elaboration": "Resourceful and self-sufficient, often embodying a quiet authority, possessing immense power used to defend and nurture.",
+      "wordsOfWisdom": "Your mighty presence offers great comfort and protection, but be mindful that not every situation requires a bear hug – sometimes a gentle paw is enough.",
+      "imageUrl": "https://example.com/images/beasts/bear.png"
+    },
+    {
+      "beastId": "dragon",
+      "name": "Dragon",
+      "type": "Mythical",
+      "coreTraits": {
+        "socialInteraction": "Solitary & Territorial",
+        "problemSolvingApproach": "Powerful & Strategic",
+        "responseToAdversity": "Formidable & Resolute",
+        "primaryMotivation": "Ambition & Power",
+        "communicationStyle": "Commanding & Direct"
+      },
+      "elaboration": "A magnificent, somewhat chubby dragon with smooth, iridescent blue-green scales. Often solitary but influential, with a long-term perspective, radiating an aura of power and ancient knowledge.",
+      "wordsOfWisdom": "Your hoard of wisdom is vast and your fire bright, but take care that your shadow doesn't inadvertently obscure the growth of smaller flames around you.",
+      "imageUrl": "https://example.com/images/beasts/dragon.png"
+    },
+    {
+      "beastId": "phoenix",
+      "name": "Phoenix",
+      "type": "Mythical",
+      "coreTraits": {
+        "socialInteraction": "Inspiring & Singular",
+        "problemSolvingApproach": "Transformative & Renewing",
+        "responseToAdversity": "Resilient & Transformative",
+        "primaryMotivation": "Rebirth & Hope",
+        "communicationStyle": "Symbolic & Profound"
+      },
+      "elaboration": "Symbolizes rebirth, renewal, and the enduring power of the spirit, rising from setbacks stronger and renewed, inspiring others.",
+      "wordsOfWisdom": "Rising from the ashes is your signature, but try not to set too many fires just to demonstrate your remarkable ability to be reborn.",
+      "imageUrl": "https://example.com/images/beasts/phoenix.png"
+    },
+    {
+      "beastId": "unicorn",
+      "name": "Unicorn",
+      "type": "Mythical",
+      "coreTraits": {
+        "socialInteraction": "Gentle & Elusive",
+        "problemSolvingApproach": "Pure & Intuitive",
+        "responseToAdversity": "Graceful & Healing",
+        "primaryMotivation": "Purity & Empathy",
+        "communicationStyle": "Empathetic & Gentle"
+      },
+      "elaboration": "Believed to have healing qualities and represents the pursuit of the ideal, embodying innocence, sincerity, and untainted intentions.",
+      "wordsOfWisdom": "Your pure heart sees the best in all, but remember that even in enchanted forests, not every glitter is gold – sometimes it's just a cleverly disguised pixie trap.",
+      "imageUrl": "https://example.com/images/beasts/unicorn.png"
+    },
+    {
+      "beastId": "griffin",
+      "name": "Griffin",
+      "type": "Mythical",
+      "coreTraits": {
+        "socialInteraction": "Noble & Vigilant",
+        "problemSolvingApproach": "Decisive & Strong",
+        "responseToAdversity": "Protective & Unyielding",
+        "primaryMotivation": "Justice & Guardianship",
+        "communicationStyle": "Authoritative & Clear"
+      },
+      "elaboration": "A symbol of courage, wisdom, and the defense of treasures or sacred places, dedicated to protecting and watching over what is valued.",
+      "wordsOfWisdom": "Guarding treasures and upholding justice is a noble flight, but ensure your keen eyes also spot opportunities for collaboration, not just transgressions.",
+      "imageUrl": "https://example.com/images/beasts/griffin.png"
+    },
+    {
+      "beastId": "sprite",
+      "name": "Sprite",
+      "type": "Mythical",
+      "coreTraits": {
+        "socialInteraction": "Playful & Elusive",
+        "problemSolvingApproach": "Resourceful & Clever (Magical)",
+        "responseToAdversity": "Adaptable & Evasive",
+        "primaryMotivation": "Mischief & Fey Knowledge",
+        "communicationStyle": "Playful & Indirect (Illusory)"
+      },
+      "elaboration": "A vibrant and colorful, androgynous human-like being with delicate, shimmering butterfly-like wings. Mystical and serene, known for playful deception and versatile intellect.",
+      "wordsOfWisdom": "Your illusions dance with delight, but ensure your playful tricks don't weave a web where even you forget what's real.",
+      "imageUrl": "https://example.com/images/beasts/sprite.png"
+    },
+    {
+      "beastId": "elephant",
+      "name": "Elephant",
+      "type": "Real",
+      "coreTraits": {
+        "socialInteraction": "Highly Social & Empathetic",
+        "problemSolvingApproach": "Strategic & Memory-Driven",
+        "responseToAdversity": "Protective & Steadfast",
+        "primaryMotivation": "Community & Wisdom",
+        "communicationStyle": "Empathetic & Complex"
+      },
+      "elaboration": "A gentle giant that embodies strength tempered with profound sensitivity and intelligence, forming strong emotional connections and valuing family.",
+      "wordsOfWisdom": "You never forget, which is a great strength, but ensure your long memory serves to build bridges from the past, not walls around old grievances.",
+      "imageUrl": "https://example.com/images/beasts/elephant.png"
+    },
+    {
+      "beastId": "landslug",
+      "name": "Land Slug",
+      "type": "Real",
+      "coreTraits": {
+        "socialInteraction": "Unassuming & Solitary",
+        "problemSolvingApproach": "Patient & Methodical",
+        "responseToAdversity": "Quietly Resilient",
+        "primaryMotivation": "Persistence & Simplicity",
+        "communicationStyle": "Subtle & Non-Confrontational"
+      },
+      "elaboration": "Thrives by finding its niche and demonstrates tenacity through slow, steady progress rather than overt displays. Content with simplicity.",
+      "wordsOfWisdom": "Your steady pace ensures you never miss the details, but be sure to leave a visible (albeit slimy) trail so others can appreciate the ground you've covered, and perhaps avoid accidentally paving over your progress.",
+      "imageUrl": "https://example.com/images/beasts/landslug.png"
+    },
+    {
+      "beastId": "sphinx",
+      "name": "Sphinx",
+      "type": "Mythical",
+      "coreTraits": {
+        "socialInteraction": "Values Solitude (Guardian)",
+        "problemSolvingApproach": "Strategic & Methodical (Riddler)",
+        "responseToAdversity": "Protective & Strong (Guardian)",
+        "primaryMotivation": "Wisdom & Knowledge (Ancient Secrets)",
+        "communicationStyle": "Direct & Assertive (Challenges/Prophecies)"
+      },
+      "elaboration": "An enigmatic guardian of ancient wisdom, the Sphinx challenges those who approach with intellectual puzzles, valuing insight and understanding above all.",
+      "wordsOfWisdom": "Your knowledge is a labyrinth only the worthy can navigate; ensure your riddles illuminate rather than merely ensnare, for true wisdom seeks to be shared, not just hoarded.",
+      "imageUrl": "https://example.com/images/beasts/sphinx.png"
+    }
+  ],
+  "quizdefinitions": [
+    {
+      "quizId": "innerBeastDiscovery_v1",
+      "title": "Find Your Inner Beast",
+      "description": "Answer these questions thoughtfully to unveil the animal spirit that resonates most with your personality.",
+      "questions": [
+        {
+          "questionId": "q1",
+          "text": "When you're at a party or social gathering, where are you most likely to be found?",
+          "facetTargeted": "Social Interaction",
+          "answers": [
+            {
+              "answerId": "q1a1",
+              "text": "In the middle of a lively group, energizing the conversation.",
+              "mapsToTraitValue": "Highly Social & Playful" 
+            },
+            {
+              "answerId": "q1a2",
+              "text": "Having a deep, meaningful conversation with one or two people.",
+              "mapsToTraitValue": "Loyal to a Small Group"
+            },
+            {
+              "answerId": "q1a3",
+              "text": "Observing from the sidelines, taking it all in before engaging.",
+              "mapsToTraitValue": "Observational & Introverted"
+            },
+            {
+              "answerId": "q1a4",
+              "text": "Enjoying my own company, perhaps near the snacks, perfectly content.",
+              "mapsToTraitValue": "Values Solitude"
+            }
+          ]
+        },
+        {
+          "questionId": "q2",
+          "text": "There's a complex problem at work/school. Your first instinct is to:",
+          "facetTargeted": "Problem-Solving Approach",
+          "answers": [
+            {
+              "answerId": "q2a1",
+              "text": "Gather all data, analyze options, and devise a step-by-step plan.",
+              "mapsToTraitValue": "Strategic & Methodical"
+            },
+            {
+              "answerId": "q2a2",
+              "text": "Find a clever, unconventional angle that others might have missed.",
+              "mapsToTraitValue": "Resourceful & Clever"
+            },
+            {
+              "answerId": "q2a3",
+              "text": "Tackle it head-on with courage and decisive action.",
+              "mapsToTraitValue": "Direct & Courageous"
+            },
+            {
+              "answerId": "q2a4",
+              "text": "Rally the team and work collaboratively to find a solution.",
+              "mapsToTraitValue": "Collaborative & Instinctive"
+            }
+          ]
+        },
+        {
+          "questionId": "q3",
+          "text": "When you face a significant setback or failure, how do you typically react?",
+          "facetTargeted": "Response to Adversity",
+          "answers": [
+            {
+              "answerId": "q3a1",
+              "text": "See it as a chance to learn, rebuild, and come back stronger.",
+              "mapsToTraitValue": "Resilient & Transformative"
+            },
+            {
+              "answerId": "q3a2",
+              "text": "Focus on protecting what's important and defending your position.",
+              "mapsToTraitValue": "Protective & Strong"
+            },
+            {
+              "answerId": "q3a3",
+              "text": "Quickly adapt to the new situation and find an alternative path.",
+              "mapsToTraitValue": "Adaptable & Quick-thinking"
+            },
+            {
+              "answerId": "q3a4",
+              "text": "Withdraw to process, understanding that some things take time to heal/resolve.",
+              "mapsToTraitValue": "Cautious & Patient"
+            }
+          ]
+        },
+        {
+          "questionId": "q4",
+          "text": "What drives you most in life?",
+          "facetTargeted": "Primary Motivation",
+          "answers": [
+            {
+              "answerId": "q4a1",
+              "text": "Achieving great things and making a powerful impact.",
+              "mapsToTraitValue": "Ambition & Power"
+            },
+            {
+              "answerId": "q4a2",
+              "text": "Seeking truth, understanding, and profound knowledge.",
+              "mapsToTraitValue": "Wisdom & Knowledge"
+            },
+            {
+              "answerId": "q4a3",
+              "text": "Ensuring fairness, protecting the vulnerable, and upholding ideals.",
+              "mapsToTraitValue": "Justice & Guardianship"
+            },
+            {
+              "answerId": "q4a4",
+              "text": "Spreading kindness, fostering harmony, and connecting with others.",
+              "mapsToTraitValue": "Purity & Empathy"
+            }
+          ]
+        },
+        {
+          "questionId": "q5",
+          "text": "When you need to communicate an important idea, you usually:",
+          "facetTargeted": "Communication Style",
+          "answers": [
+            {
+              "answerId": "q5a1",
+              "text": "State it clearly, confidently, and directly to get your point across.",
+              "mapsToTraitValue": "Direct & Assertive"
+            },
+            {
+              "answerId": "q5a2",
+              "text": "Listen carefully to others first, then offer a thoughtful, well-considered response.",
+              "mapsToTraitValue": "Considered & Observational"
+            },
+            {
+              "answerId": "q5a3",
+              "text": "Use humor and playful language to make your message engaging.",
+              "mapsToTraitValue": "Playful & Engaging"
+            },
+            {
+              "answerId": "q5a4",
+              "text": "Speak with compassion, aiming to connect emotionally and ensure understanding.",
+              "mapsToTraitValue": "Empathetic & Gentle"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "userquizresults": []
+}
