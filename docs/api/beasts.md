@@ -8,11 +8,28 @@ Base endpoint:
 {server_url}/beasts
 ```
 
-Contains a collection of animal profiles with personality traits corresponding to the facets in the quiz. The facets and personality traits accomplish the mapping.
+Contains a collection of animal profiles with personality traits corresponding to the facets in the quiz.
 
 ## Resource properties
 
-Sample `beast` resource
+| Property name | Type | Description |
+| ------------- | ----------- | ----------- |
+| `beastID` | string | The beast's ID |
+| `name` | string | The beast's name|
+| `type` | string | The beast's category |
+| `coreTraits` | string | The description of the beast's personality traits |
+| `socialInteraction` | string | The beast's preference for social interactions |
+| `problemSolvingApproach` | string | The beast's approach to solving problems |
+| `responsetoAdversity` | string | The beast's response to hardship |
+| `primaryMotivation` | string | The beast's main motive |
+| `communicationStyle` | string | The beast's preference for communicating |
+| `elaboration` | string| Context about the beast's personality type |
+| `wordsOfWisdom` | string| Advice for those who receive this beast in the quiz |
+| `imageURL` | string | The URL with an image of the beast |
+
+## Example
+
+This is a sample `beast` resource:
 
 ```js
 {
@@ -32,12 +49,11 @@ Sample `beast` resource
 }
 ```
 
-| Property name | Type | Description |
-| ------------- | ----------- | ----------- |
-| `beastID` | string | The ID of the beast |
-| `name` | string | The name of the beast|
-| `type` | string | `Real` or `Mythical`|
-| `coreTraits` | string | The description of the beast's personality traits |
-| `elaboration` | string| The additional information about the beast personality type.|
-| `wordsOfWisdom` | string| The task's unique record ID |
-| `imageURL` | string | The URL with an image of the beast|
+## Get operations
+
+* [GET beasts](./beasts-get-beasts.md)
+* [GET beasts by id](./beasts-get-beasts-by-id.md)
+
+## Related Information
+
+* [Quiz definitions resource](./quizdefinitions.md)
