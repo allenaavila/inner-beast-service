@@ -1,11 +1,11 @@
 # Find Your Inner Beast REST API
 
-This RESTful API service is designed to provide you with the data and structure needed to power an interactive quiz that matches users to their "kindred animal" (real or mythical) based on their personality traits.
+This REST API service provides you with the data and structure needed to power a quiz that matches users to their kindred animal based on their personality traits.
 
-For more information, see [Inner Beast Service Overview](./docs/overview/inner-beast-overview.md).
+For more information, see the [Inner Beast Service Overview](./docs/overview/inner-beast-overview.md) topic.
 
 ## Note
 
-This REST API documentation is for a fictional service created as part of a university documentation course.
+This documentation is for a fictional service created as part of a university documentation course.
 
-Many thanks to Mette Wadleigh for coming up with this REST API and being the subject matter expert for this project.
+Many thanks to Mette Wadleigh for coming up with the idea for this service and being the subject matter expert for this project.
