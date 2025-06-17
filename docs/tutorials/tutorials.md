@@ -1,5 +1,4 @@
 # Tutorials
 
-* [Retrieve Beasts](./tutorials-retrieve-beasts.md)
-* [Retrieve Quiz Definitions](./tutorials-retrieve-quiz-definitions.md)
-* [Create User Quiz Results](./tutorials-create-user-quiz-results.md)
+* [Get beasts by id](./tutorials-get-beasts-by-id.md)
+* [Get quiz definitions by id](./tutorials-get-quiz-definitions-by-id.md)
