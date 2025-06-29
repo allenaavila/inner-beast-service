@@ -63,7 +63,7 @@ None
 
 | HTTP status code| Description |
 | ------------- | ----------- |
-| 200 OK| Returns beasts contained in the service. The server has responded successfully. |
+| 200 OK| Beasts returned successfully.|
 | 400 Not Found | Beasts not found.|
 
 ## Related information

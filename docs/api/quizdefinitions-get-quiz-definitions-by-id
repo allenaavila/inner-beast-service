@@ -13,7 +13,7 @@ Returns all `quizdefinitions` specified by the `quizId` parameter, if it exists.
 
 | Name | Type | Description |
 | ------------- | ----------- | ----------- |
-| `quizId` | string | The ID of the quiz definition to return |
+| `quizId` | string | The ID of the quiz to return. |
 
 ## Request headers
 
@@ -67,7 +67,7 @@ None
 
 | HTTP status code| Description |
 | ------------- | ----------- |
-| 200 OK| Returns specified quiz definition successfully. |
+| 200 OK| Specified quiz returned successfully. |
 | 400 Not Found | Specified quiz definition not found. |
 
 ## Related information
