@@ -1,5 +1,9 @@
 # Get Started
 
+## Context
+
+To simulate using this fictional API service, you must complete this topic before you follow any [tutorials](../tutorials/tutorials.md) or use the Inner Beast REST API.
+
 ## Prerequisites
 
 On your computer, you must have:
@@ -10,10 +14,6 @@ On your computer, you must have:
 * [Postman desktop app](https://www.postman.com/downloads)
 * [Node.js](https://nodejs.org/en/download)
 * [Json-server](https://www.npmjs.com/package/json-server)
-
-## Context
-
-To simulate using this fictional API service, you must complete this topic before you follow any [tutorials](../tutorials/tutorials.md) or use the Inner Beast REST API.
 
 ## Steps
 
@@ -27,18 +27,18 @@ You now have a copy of the Inner Beast Service repository on your local computer
 
 ## Next steps
 
-Test your development system is correctly configured.
+Test that your development system is correctly configured.
 
 1. Access your clone of the Inner Beast repository on your computer's command-line interface.
 
-   ```shell
+ ```shell
     cd api
     json-server -w beast-db.json
-    ```
+ ```
 
 2. Verify you receive the following response to confirm that the service started successfully:
 
-   ```shell
+ ```shell
     \{^_^}/ hi!
 
     Loading beast-db.json
@@ -50,22 +50,19 @@ Test your development system is correctly configured.
 
     Home
     http://localhost:3000
-    ```
+```
 
 3. Leave the first window open with the service running. Open a new window of your command-line interface to test calling the service.
-
-   Example:
-
+   
 ```shell
    curl http://localhost:3000/beasts
-   ```
-
+```
 4. Verify that the service returns the expected response.
 
    Example:
 
 ```json
-   [
+[
     {
         "beastId": "lion",
         "name": "Lion",
@@ -96,6 +93,5 @@ Test your development system is correctly configured.
         "wordsOfWisdom": "Your joyful leaps make waves, but ensure your playful currents don't inadvertently capsize smaller boats in the shared ocean of collaboration.",
         "imageUrl": "https://example.com/images/beasts/dolphin.png"
     }
-    ...
 ]
    ```

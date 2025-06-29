@@ -15,6 +15,10 @@ Returns all `beasts` specified by the `beastId` parameter, if it exists.
 | ------------- | ----------- | ----------- |
 | `beastId` | string | The ID of the beast to return. |
 
+## Authorization
+
+None
+
 ## Request headers
 
 None

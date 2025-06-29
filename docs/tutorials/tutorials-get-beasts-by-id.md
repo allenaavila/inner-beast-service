@@ -14,14 +14,14 @@ Complete the [Get Started](../overview/get-started.md) topic to set up your comp
 
 1. Open GitHub Desktop.
 
-   Open your fork of the Inner Beast Service repository in your development system's command line.
+    Access your clone of the Inner Beast repository on your computer's command-line interface.
 
 2. From your command line, start your local service:
 
-```shell
-    cd <your-github-workspace>/inner-beast-service/api
- json-server -w beast-db.json
-```
+   ```shell
+    cd api
+    json-server -w beast-db.json
+   ```
 
 3. Open the Postman desktop app.  
 
