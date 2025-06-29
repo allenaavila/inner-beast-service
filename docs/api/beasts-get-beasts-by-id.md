@@ -13,7 +13,7 @@ Returns all `beasts` specified by the `beastId` parameter, if it exists.
 
 | Name | Type | Description |
 | ------------- | ----------- | ----------- |
-| `beastId` | string | The ID of the beast to return |
+| `beastId` | string | The ID of the beast to return. |
 
 ## Request headers
 
@@ -49,7 +49,7 @@ None
 
 | HTTP status code| Description |
 | ------------- | ----------- |
-| 200 OK| Returns specified beast successfully. |
+| 200 OK| Specified beast returned successfully. |
 | 400 Not Found | Specified beast not found.|
 
 ## Related information

@@ -8,24 +8,24 @@ Base endpoint:
 {server_url}/beasts
 ```
 
-Contains a collection of animal profiles with personality traits corresponding to the facets in the quiz.
+Contains a profile of an animal that represents a specific personality type, including trait descriptions used to match quiz-takers to the beast that represents them.
 
 ## Resource properties
 
 | Property name | Type | Description |
 | ------------- | ----------- | ----------- |
-| `beastID` | string | The beast's ID |
-| `name` | string | The beast's name|
-| `type` | string | The beast's category |
-| `coreTraits` | string | The description of the beast's personality traits |
-| `socialInteraction` | string | The beast's preference for social interactions |
-| `problemSolvingApproach` | string | The beast's approach to solving problems |
-| `responsetoAdversity` | string | The beast's response to hardship |
-| `primaryMotivation` | string | The beast's main motive |
-| `communicationStyle` | string | The beast's preference for communicating |
-| `elaboration` | string| Context about the beast's personality type |
-| `wordsOfWisdom` | string| Advice for those who receive this beast in the quiz |
-| `imageURL` | string | The URL with an image of the beast |
+| `beastID` | string | The unique ID of the beast.|
+| `name` | string | The name of the beast.|
+| `type` | string | The category of the beast, such as `Real` or `Mythical`. |
+| `coreTraits` | object | An object containing the beast's core personality traits.|
+| `coreTraits.socialInteraction` | string | The beast's preference for social interactions. |
+| `coreTraits.problemSolvingApproach` | string | The beast's typical approach to solving problems. |
+| `coreTraits.responsetoAdversity` | string | The beast's typical response to hardship or obstacles.|
+| `coreTraits.primaryMotivation` | string | The beast's main source of motivation. |
+| `coreTraits.communicationStyle` | string | The beast's preferred communication style. |
+| `elaboration` | string| A brief description elaborating on the beast's personality type. |
+| `wordsOfWisdom` | string| Advice or insight associated with the beast.|
+| `imageURL` | string | A URL linking to an image representing the beast.|
 
 ## Example
 
@@ -49,7 +49,7 @@ This is a sample `beast` resource:
 }
 ```
 
-## Get operations
+## GET operations
 
 * [GET beasts](./beasts-get-beasts.md)
 * [GET beasts by id](./beasts-get-beasts-by-id.md)

@@ -36,7 +36,7 @@ Test your development system is correctly configured.
     json-server -w beast-db.json
     ```
 
-2. Verify that the service starts:
+2. Verify you receive the following response to confirm that the service started successfully:
 
    ```shell
     \{^_^}/ hi!

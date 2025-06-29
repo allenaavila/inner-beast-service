@@ -1,14 +1,14 @@
 # Get beast by ID
 
-## Prerequisites
-
-Complete the [Get Started](../overview/get-started.md) topic to set up your computer for the Inner Beast REST API.
-
 ## Context
 
-In this tutorial, you'll learn how to retrieve a specific `beast` profiles using its `beastId`.
+In this tutorial, you'll learn how to retrieve a specific `beast` profile using its `beastId`.
 
 This action enables you to efficiently access and view data on a `beast` profile for your personality quizzes.
+
+## Prerequisites
+
+Complete the [Get Started](../overview/get-started.md) topic to set up your computer for the Inner Beast Service.
 
 ## Steps
 
@@ -19,10 +19,8 @@ This action enables you to efficiently access and view data on a `beast` profile
 2. From your command line, start your local service:
 
 ```shell
-{
-     cd <your-github-workspace>/inner-beast-service/api
+    cd <your-github-workspace>/inner-beast-service/api
  json-server -w beast-db.json
-}
 ```
 
 3. Open the Postman desktop app.  
