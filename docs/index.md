@@ -27,4 +27,4 @@ See these topics for more details on the resources that the REST API uses:
 
 * [Quiz definitions](./api/quizdefinitions.md)
   * [GET quiz definitions](./api/quizdefinitions-get-quiz-definitions.md)
-  * [GET quiz definitions by ID](./api/quizdefinitions-get-quiz-definitions-by-id)
+  * [GET quiz definitions by ID](./api/quizdefinitions-get-quizdefinition-by-id.md)

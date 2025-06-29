@@ -25,4 +25,4 @@ The Inner Beast Service uses these two resources: `beasts` and `quizdefinitions`
   * [GET beasts by ID](../api/beasts-get-beasts-by-id.md)
 * [Quiz definitions](../api/quizdefinitions.md)
   * [GET quiz definitions](../api/quizdefinitions-get-quiz-definitions.md)
-  * [GET quiz definitions by ID](../api/quizdefinitions-get-quiz-definitions-by-id)
+  * [GET quiz definitions by ID](../api/quizdefinitions-get-quizdefinition-by-id.md)

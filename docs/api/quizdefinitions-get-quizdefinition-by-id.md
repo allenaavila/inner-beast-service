@@ -1,4 +1,4 @@
-# GET Quiz Definitions by quiz ID
+# GET quiz definition by quiz ID
 
 Returns all `quizdefinitions` specified by the `quizId` parameter, if it exists.
 
@@ -14,7 +14,6 @@ Returns all `quizdefinitions` specified by the `quizId` parameter, if it exists.
 | Name | Type | Description |
 | ------------- | ----------- | ----------- |
 | `quizId` | string | The ID of the quiz to return. |
-
 
 ## Authorization
 
