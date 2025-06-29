@@ -1,4 +1,4 @@
-# GET beasts by ID
+# GET beast by ID
 
 Returns all `beasts` specified by the `beastId` parameter, if it exists.
 
