@@ -15,6 +15,11 @@ Returns all `quizdefinitions` specified by the `quizId` parameter, if it exists.
 | ------------- | ----------- | ----------- |
 | `quizId` | string | The ID of the quiz to return. |
 
+
+## Authorization
+
+None
+
 ## Request headers
 
 None

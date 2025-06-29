@@ -13,6 +13,10 @@ Returns all `quiz definitions` contained in the service.
 
 None
 
+## Authorization
+
+None
+
 ## Request headers
 
 None
